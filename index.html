@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      [data-testid="stApp"] {
+        background-size: 100% 100%;
+      }
+      [data-testid="stHeader"] {
+        background: none;
+      }
+      [data-testid="baseButton-header"] {
+        background: white;
+      }
+      [data-testid="StyledLinkIconContainer"] {
+        color: white;
+      }
+      [data-testid="stWidgetLabel"] {
+        color: white;
+      }
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(169, 167, 167, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="/media/133518 (Original).mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+  </body>
+</html>
